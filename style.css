@@ -9,8 +9,9 @@ body{
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
+    font-family: 'Kalam', cursive;
 }
 
 h2{
@@ -29,10 +30,11 @@ p{
 }
 
 .dotted-hr{
-    border: dotted 6px white;
+    border:  3px solid #DD1D53 ;
+    border-radius: 50px;
     border-bottom:none ;
     margin: 20px auto;
-    width: 120px;
+    width: 200px;
 }
 
 [class*="col-"]{
@@ -61,9 +63,11 @@ p{
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
 }
 .navbar-menu a{
-    background-color: #1c305e;
+    
+    background-color: #0a225b;
     border-radius: 15px;
     margin: 7px 0px;
     padding: 10px;
@@ -85,7 +89,10 @@ p{
     padding: 130px 10px;
     position: relative;
     text-align: center;
+    
 }
+
+
 
 .profile .top-weather-icon{
     position: absolute;
@@ -142,8 +149,8 @@ p{
 .aboutme-img img{
     border: 5px solid white;
     border-radius: 50%;
-    height: 220px;
-    width: 200px;
+    height: 210px;
+    width: 220px;
 }
 
 .about-me p{
@@ -152,6 +159,15 @@ p{
 
 .about-me a{
     font-size: 1.2rem;
+}
+
+.highlight{
+    color: white;
+
+}
+
+.highlight:hover{
+    color: #1A6ED8;
 }
 
 .cv-button{
